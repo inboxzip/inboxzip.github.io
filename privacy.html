@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InboxZip Privacy Policy</title>
+<meta name="description" content="How InboxZip handles Gmail attachments (locally in your browser) and Pro license keys (validated with Polar).">
+<link rel="canonical" href="https://inboxzip.github.io/privacy.html">
+<link rel="icon" href="favicon-32.png" type="image/png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="InboxZip Privacy Policy">
+<meta property="og:url" content="https://inboxzip.github.io/privacy.html">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:48px 20px 72px}
+  .eyebrow{color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:10px 0 6px;font-size:34px;line-height:1.15;letter-spacing:-.03em}
+  h2{margin:34px 0 8px;padding-top:18px;border-top:1px dashed var(--line);font-size:19px;letter-spacing:-.01em}
+  p,li{color:var(--ink2)}
+  p strong,li strong{color:var(--ink)}
+  ul{padding-left:20px}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+</style>
+</head>
+<body>
+<main>
+<p><a href="index.html">&larr; InboxZip</a></p>
+<span class="eyebrow">Privacy</span>
+<h1>InboxZip Privacy Policy</h1>
+<p><strong>Last updated: October 26, 2026.</strong> This policy covers the InboxZip Chrome extension (&ldquo;InboxZip&rdquo;, &ldquo;the extension&rdquo;).</p>
+
+<h2>In short</h2>
+<ul>
+  <li>Your emails and attachments are processed <strong>only inside your own browser</strong>. They are never sent to InboxZip or to any server we run. We do not run a server that receives your data.</li>
+  <li>InboxZip has <strong>no accounts, no analytics, no advertising and no tracking</strong>, and it does not sell or share your data.</li>
+  <li>The only information that leaves your browser because of InboxZip is the <strong>Pro license key</strong>, together with a device name, sent to Polar to check that it is valid and to count your installs.</li>
+</ul>
+
+<h2>What the extension does with Gmail</h2>
+<p>The extension runs on <code>mail.google.com</code> only. When you press <strong>Download ZIP</strong>, it reads the message list in the Gmail tab you are using (which messages are shown and which have attachments), then fetches each selected attachment from Google using your existing Gmail login, exactly as if you downloaded it by hand. The ZIP file is built in your browser and saved by Chrome to your downloads folder.</p>
+<p>In <strong>All pages</strong> mode (Pro), the extension turns the pages of your Gmail list in the same tab, one after another, and returns the tab to the page you started from when it is finished.</p>
+<p>InboxZip does not use the Gmail API, does not ask you to sign in with Google, and does not send, delete or change your email.</p>
+
+<h2>What is stored on your device</h2>
+<p>The extension keeps a small amount of data in Chrome&rsquo;s extension storage on your computer:</p>
+<ul>
+  <li>the number of free exports used today and the date;</li>
+  <li>the state of the current export (progress counts and error messages), which does not contain the content of your emails or attachments;</li>
+  <li>if you activate Pro, your <strong>license key</strong>, the identifier of this installation&rsquo;s activation, a <strong>device name</strong> such as &ldquo;Chrome on Linux (a1b2c3)&rdquo; (your platform plus a random code), and the time of the last check.</li>
+</ul>
+<p>You can remove all of it by removing the extension.</p>
+
+<h2>Pro licenses and payments (Polar)</h2>
+<p>Pro is sold through <strong>Polar</strong> (polar.sh). Checkout happens on Polar&rsquo;s own website; InboxZip never sees your card or payment details. To confirm a license, the extension sends the license key together with InboxZip&rsquo;s public product identifiers to Polar&rsquo;s license validation service. When you activate Pro, it also registers this installation with Polar under the device name above, because a key works on up to 3 installs; you can remove an installation yourself in the Polar customer portal. Pressing Activate again on the same installation reuses the same registration. The extension repeats the check from time to time while it is in use. Like any web request, this exposes your IP address to Polar. Polar handles checkout and license data under its own privacy policy.</p>
+
+<h2>Permissions, and why</h2>
+<ul>
+  <li><strong>Access to <code>mail.google.com</code></strong>: to read the message list and fetch the attachments you ask for.</li>
+  <li><strong><code>downloads</code></strong>: to save the ZIP file and confirm that the download finished.</li>
+  <li><strong><code>storage</code></strong>: for the local data listed above.</li>
+  <li><strong><code>sidePanel</code></strong>: to show the InboxZip panel next to Gmail.</li>
+  <li><strong>Access to <code>api.polar.sh</code></strong>: only to validate a Pro license key.</li>
+</ul>
+<p>The extension does not load or run remote code.</p>
+
+<h2>Your choices</h2>
+<p>You can use the free mode without ever contacting Polar. You can remove your license key and all stored data at any time by removing the extension from Chrome.</p>
+
+<h2>Changes</h2>
+<p>If the way InboxZip handles data changes in a meaningful way, this page and the Chrome Web Store listing will be updated, and the date above will change.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a>.</p>
+
+<p style="margin-top:36px;font-size:14px">InboxZip is an independent product and is not affiliated with Google. Gmail is a trademark of Google LLC.</p>
+</main>
+</body>
+</html>

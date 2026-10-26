@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InboxZip: save Gmail attachments in one ZIP</title>
+<meta name="description" content="InboxZip is a Chrome extension that saves the attachments from a Gmail search into one ZIP file. Free for the current page, Pro for all pages: $9.99 once.">
+<link rel="icon" href="favicon-32.png" type="image/png">
+<link rel="canonical" href="https://inboxzip.github.io/">
+<meta name="theme-color" content="#f2efe7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="InboxZip: save Gmail attachments in one ZIP">
+<meta property="og:description" content="A Chrome extension that saves the attachments from a Gmail search into one ZIP file. Free for the current page, Pro for all pages: $9.99 once.">
+<meta property="og:url" content="https://inboxzip.github.io/">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="InboxZip: Save Gmail attachments in one ZIP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="InboxZip: save Gmail attachments in one ZIP">
+<meta name="twitter:description" content="Free for the current page, Pro for all pages: $9.99 once, no subscription.">
+<meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "InboxZip",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Chrome",
+  "description": "A Chrome extension that saves the attachments from a Gmail search into one ZIP file. It runs in the browser and does not upload emails or files.",
+  "url": "https://inboxzip.github.io/",
+  "image": "https://inboxzip.github.io/og-image.png",
+  "offers": [
+    {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"},
+    {"@type": "Offer", "name": "Pro, lifetime license", "price": "9.99", "priceCurrency": "USD"}
+  ]
+}
+</script>
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--card:#fbfaf5;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#1a1c20;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:19px;letter-spacing:-.02em}
+  .brand img{border-radius:9px}
+  .eyebrow{margin-top:44px;color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:12px 0 10px;font-size:44px;line-height:1.08;letter-spacing:-.035em}
+  h2{margin:44px 0 10px;padding-top:20px;border-top:1px dashed var(--line);font-size:21px;letter-spacing:-.015em}
+  p,li{color:var(--ink2)}
+  p strong,li strong,td strong{color:var(--ink)}
+  .lede{font-size:19px;max-width:620px}
+  .status{display:inline-block;margin-top:6px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;font:600 12px/1.3 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+  ol,ul{padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  th,td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px}
+  th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  td+td,th+th{border-left:1px solid var(--line)}
+  .price{font-size:30px;font-weight:300;letter-spacing:-.03em;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+  a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+  @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="icon-128.png" alt="" width="40" height="40"><span>InboxZip</span></div>
+
+  <div class="eyebrow">Chrome extension for Gmail</div>
+  <h1>Save Gmail attachments in one ZIP.</h1>
+  <p class="lede">InboxZip collects the attachments from your Gmail search results into a single flat ZIP file, so you don&rsquo;t have to open every email. It runs inside your browser: your emails and files never pass through our servers.</p>
+  <span class="status">Chrome Web Store listing: coming soon</span>
+
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Search in Gmail</strong>, for example <code>has:attachment from:accounting</code>.</li>
+    <li><strong>Open InboxZip</strong> next to Gmail and choose the file types you want: PDF, images or other.</li>
+    <li><strong>Press Download ZIP.</strong> InboxZip fetches the attachments with your own Gmail session and builds the archive on your computer.</li>
+  </ol>
+
+  <h2>Free and Pro</h2>
+  <table>
+    <tr><th></th><th>Free</th><th>Pro</th></tr>
+    <tr><td><strong>Price</strong></td><td class="price">$0</td><td><span class="price">$9.99</span><br>one-time payment, lifetime, no subscription</td></tr>
+    <tr><td><strong>Which emails</strong></td><td>The Gmail results page you are looking at</td><td>Every page of a Gmail search, one after another</td></tr>
+    <tr><td><strong>Exports</strong></td><td>3 per day (failed or cancelled ones don&rsquo;t count)</td><td>No daily limit</td></tr>
+    <tr><td><strong>Devices</strong></td><td>&ndash;</td><td>License key works on up to 3 installs; you can remove one yourself in the customer portal</td></tr>
+  </table>
+  <p>Pro is sold through Polar, our payment provider and merchant of record. You receive a license key right after payment and paste it into InboxZip. Applicable taxes are calculated at checkout.</p>
+
+  <h2>Good to know</h2>
+  <ul>
+    <li>InboxZip saves files attached to emails (the ones Gmail marks with a paperclip). Images embedded in a message body and calendar invites are not included.</li>
+    <li>One file up to 25 MB; one ZIP up to 100 MB, 1,500 files and 100 result pages.</li>
+    <li>Files with the same name get numbers, so nothing is overwritten. If an export fails, InboxZip says so and saves nothing instead of a broken archive.</li>
+    <li>No account, no Gmail API and no sign-in with Google. Details are in the <a href="privacy.html">privacy policy</a>.</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <p><strong>How do I download all attachments from a Gmail search at once?</strong><br>Search in Gmail, open InboxZip and press Download ZIP. The free version saves every attachment on the results page you are looking at. Pro keeps going through each page of the same search and puts everything into one ZIP.</p>
+  <p><strong>Does InboxZip upload my emails or attachments?</strong><br>No. The files go from Gmail to your browser and the ZIP is built on your computer. The only thing sent anywhere is your Pro license key, to Polar, to check that it is valid.</p>
+  <p><strong>Can I choose which files go into the ZIP?</strong><br>Yes. Pick PDFs, images or other files before you start, and the archive only holds those.</p>
+  <p><strong>What if two attachments have the same name?</strong><br>Both are kept: the second one gets a number, so nothing is overwritten.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, license help or a bug report: <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a></p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a><br>
+    InboxZip is an independent product and is not affiliated with Google. Gmail is a trademark of Google LLC.
+  </footer>
+</main>
+</body>
+</html>
