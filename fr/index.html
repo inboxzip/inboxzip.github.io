@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InboxZip : télécharger toutes les pièces jointes Gmail en un ZIP</title>
+<meta name="description" content="Téléchargez toutes les pièces jointes Gmail en un ZIP. Extension Chrome sans connexion et sans API Gmail ; les fichiers sont compressés en local.">
+<link rel="icon" href="../favicon-32.png" type="image/png">
+<link rel="canonical" href="https://inboxzip.github.io/fr/">
+<link rel="alternate" hreflang="en" href="https://inboxzip.github.io/">
+<link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/">
+<link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/">
+<link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/">
+<link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/">
+<link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/">
+<link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/">
+<meta name="theme-color" content="#f2efe7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="InboxZip : télécharger toutes les pièces jointes Gmail en un ZIP">
+<meta property="og:description" content="Téléchargez toutes les pièces jointes Gmail en un ZIP. Extension Chrome sans connexion et sans API Gmail ; les fichiers sont compressés en local.">
+<meta property="og:url" content="https://inboxzip.github.io/fr/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="InboxZip : télécharger toutes les pièces jointes Gmail en un ZIP">
+<meta name="twitter:description" content="Téléchargez toutes les pièces jointes Gmail en un ZIP. Extension Chrome sans connexion et sans API Gmail ; les fichiers sont compressés en local.">
+<meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "InboxZip",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Chrome",
+  "inLanguage": "fr",
+  "downloadUrl": "https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak",
+  "description": "Une extension Chrome qui télécharge toutes les pièces jointes d’une recherche Gmail dans un fichier ZIP. Elle fonctionne dans le navigateur et n’envoie ni e-mails ni fichiers.",
+  "url": "https://inboxzip.github.io/fr/",
+  "image": "https://inboxzip.github.io/og-image.png",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "fr",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment télécharger d’un coup toutes les pièces jointes d’une recherche Gmail ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Recherchez dans Gmail, ouvrez InboxZip et cliquez sur Download ZIP. InboxZip enregistre dans un ZIP toutes les pièces jointes de la page de résultats affichée."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Puis-je télécharger uniquement les PDF depuis Gmail ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Choisissez PDF, images ou autres fichiers avant de commencer : l’archive ne contiendra que ceux-là."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "InboxZip envoie-t-il mes e-mails ou mes pièces jointes quelque part ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Les fichiers vont de Gmail à votre navigateur et le ZIP est créé sur votre ordinateur."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Et si deux pièces jointes portent le même nom ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les deux sont conservées : la seconde reçoit un numéro, rien n’est écrasé."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--card:#fbfaf5;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#1a1c20;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:19px;letter-spacing:-.02em}
+  .brand img{border-radius:9px}
+  .eyebrow{margin-top:44px;color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:12px 0 10px;font-size:44px;line-height:1.08;letter-spacing:-.035em}
+  h2{margin:44px 0 10px;padding-top:20px;border-top:1px dashed var(--line);font-size:21px;letter-spacing:-.015em}
+  p,li{color:var(--ink2)}
+  p strong,li strong,td strong{color:var(--ink)}
+  .lede{font-size:19px;max-width:620px}
+  .cta{display:inline-block;margin:8px 10px 0 0;padding:12px 20px;border-radius:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:650;letter-spacing:-.01em}
+  .cta:hover{background:var(--signal);color:#fff}
+  .status{display:inline-block;margin-top:6px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;font:600 12px/1.3 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+  ol,ul{padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  th,td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px}
+  th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  td+td,th+th{border-left:1px solid var(--line)}
+  .price{font-size:30px;font-weight:300;letter-spacing:-.03em;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+  a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+  @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+  .langs{margin-top:14px;font-size:14px;color:var(--ink2)}
+  .langs strong{color:var(--ink)}
+  .langs a{text-decoration:none;border-bottom:1px solid var(--line)}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  h1{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="../icon-128.png" alt="" width="40" height="40"><span>InboxZip</span></div>
+  <nav class="langs" aria-label="Language"><a href="../" hreflang="en" lang="en">English</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../pt/" hreflang="pt-BR" lang="pt-BR">Português</a> · <strong>Français</strong> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a></nav>
+
+  <div class="eyebrow">Extension Chrome pour Gmail</div>
+  <h1>Téléchargez toutes les pièces jointes Gmail en un ZIP.</h1>
+  <p class="lede">InboxZip rassemble les pièces jointes des résultats de votre recherche Gmail dans un seul fichier ZIP, sans que vous ayez à ouvrir chaque e-mail. Tout se passe dans votre navigateur : vos e-mails et vos fichiers ne passent jamais par nos serveurs.</p>
+  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Ajouter à Chrome</a> <span class="status">Gratuit</span>
+
+  <h2>Comment ça marche</h2>
+  <ol>
+    <li><strong>Recherchez dans Gmail</strong>, par exemple <code>has:attachment from:comptabilite</code>.</li>
+    <li><strong>Ouvrez InboxZip</strong> à côté de Gmail et choisissez les types de fichiers : PDF, images ou autres.</li>
+    <li><strong>Cliquez sur Download ZIP.</strong> InboxZip récupère les pièces jointes avec votre propre session Gmail et crée l’archive sur votre ordinateur.</li>
+  </ol>
+
+  <h2>Gratuit</h2>
+  <p>Toutes les pièces jointes de la page de résultats Gmail affichée, jusqu’à 3 exports par jour (les exports échoués ou annulés ne comptent pas).</p>
+
+  <h2>Bon à savoir</h2>
+  <ul>
+    <li>InboxZip enregistre les fichiers joints aux e-mails (ceux que Gmail signale par un trombone). Les images intégrées au corps du message et les invitations de calendrier ne sont pas incluses.</li>
+    <li>Un fichier jusqu’à 25 Mo ; un ZIP jusqu’à 100 Mo, 1 500 fichiers et 100 pages de résultats.</li>
+    <li>Les fichiers de même nom sont numérotés, rien n’est écrasé. Si un export échoue, InboxZip le dit et n’enregistre rien plutôt qu’une archive corrompue.</li>
+    <li>Pas de compte, pas d’API Gmail, pas de connexion avec Google. Détails dans la <a href="../privacy.html">politique de confidentialité</a> (en anglais).</li>
+  </ul>
+
+  <h2>Questions</h2>
+  <p><strong>Comment télécharger d’un coup toutes les pièces jointes d’une recherche Gmail ?</strong><br>Recherchez dans Gmail, ouvrez InboxZip et cliquez sur Download ZIP. InboxZip enregistre dans un ZIP toutes les pièces jointes de la page de résultats affichée.</p>
+  <p><strong>Puis-je télécharger uniquement les PDF depuis Gmail ?</strong><br>Oui. Choisissez PDF, images ou autres fichiers avant de commencer : l’archive ne contiendra que ceux-là.</p>
+  <p><strong>InboxZip envoie-t-il mes e-mails ou mes pièces jointes quelque part ?</strong><br>Non. Les fichiers vont de Gmail à votre navigateur et le ZIP est créé sur votre ordinateur.</p>
+  <p><strong>Et si deux pièces jointes portent le même nom ?</strong><br>Les deux sont conservées : la seconde reçoit un numéro, rien n’est écrasé.</p>
+  <p><a href="telecharger-toutes-les-pieces-jointes-gmail.html">Pas à pas : télécharger toutes les pièces jointes de Gmail &rarr;</a></p>
+
+  <h2>Contact</h2>
+  <p>Questions, aide pour la licence ou signalement d’un bug : <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a></p>
+
+  <footer>
+    <a href="../privacy.html">Politique de confidentialité (en anglais)</a><br>
+    InboxZip est un produit indépendant, non affilié à Google. Gmail est une marque de Google LLC.
+  </footer>
+</main>
+</body>
+</html>

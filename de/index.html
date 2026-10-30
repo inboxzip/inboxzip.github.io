@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InboxZip: Alle Gmail-Anhänge als ZIP herunterladen</title>
+<meta name="description" content="Alle Gmail-Anhänge als ZIP herunterladen. Chrome-Erweiterung ohne Anmeldung und ohne Gmail-API; die Dateien werden lokal auf deinem Computer gepackt.">
+<link rel="icon" href="../favicon-32.png" type="image/png">
+<link rel="canonical" href="https://inboxzip.github.io/de/">
+<link rel="alternate" hreflang="en" href="https://inboxzip.github.io/">
+<link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/">
+<link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/">
+<link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/">
+<link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/">
+<link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/">
+<link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/">
+<meta name="theme-color" content="#f2efe7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="InboxZip: Alle Gmail-Anhänge als ZIP herunterladen">
+<meta property="og:description" content="Alle Gmail-Anhänge als ZIP herunterladen. Chrome-Erweiterung ohne Anmeldung und ohne Gmail-API; die Dateien werden lokal auf deinem Computer gepackt.">
+<meta property="og:url" content="https://inboxzip.github.io/de/">
+<meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="InboxZip: Alle Gmail-Anhänge als ZIP herunterladen">
+<meta name="twitter:description" content="Alle Gmail-Anhänge als ZIP herunterladen. Chrome-Erweiterung ohne Anmeldung und ohne Gmail-API; die Dateien werden lokal auf deinem Computer gepackt.">
+<meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "InboxZip",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Chrome",
+  "inLanguage": "de",
+  "downloadUrl": "https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak",
+  "description": "Eine Chrome-Erweiterung, die alle Gmail-Anhänge einer Suche als ZIP-Datei herunterlädt. Sie läuft im Browser und lädt keine E-Mails oder Dateien hoch.",
+  "url": "https://inboxzip.github.io/de/",
+  "image": "https://inboxzip.github.io/og-image.png",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "de",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Wie lade ich alle Anhänge einer Gmail-Suche auf einmal herunter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Gmail suchen, InboxZip öffnen und „Download ZIP“ drücken. InboxZip speichert alle Anhänge der Ergebnisseite, die du gerade siehst, in einem ZIP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann ich nur die PDFs aus Gmail herunterladen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Wähle vor dem Start PDF, Bilder oder Sonstige, dann enthält das Archiv nur diese Dateien."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Lädt InboxZip meine E-Mails oder Anhänge hoch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Die Dateien gehen von Gmail in deinen Browser, das ZIP wird auf deinem Computer erstellt."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was passiert bei zwei Anhängen mit gleichem Namen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beide bleiben erhalten: Der zweite bekommt eine Nummer, nichts wird überschrieben."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--card:#fbfaf5;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#1a1c20;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:19px;letter-spacing:-.02em}
+  .brand img{border-radius:9px}
+  .eyebrow{margin-top:44px;color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:12px 0 10px;font-size:44px;line-height:1.08;letter-spacing:-.035em}
+  h2{margin:44px 0 10px;padding-top:20px;border-top:1px dashed var(--line);font-size:21px;letter-spacing:-.015em}
+  p,li{color:var(--ink2)}
+  p strong,li strong,td strong{color:var(--ink)}
+  .lede{font-size:19px;max-width:620px}
+  .cta{display:inline-block;margin:8px 10px 0 0;padding:12px 20px;border-radius:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:650;letter-spacing:-.01em}
+  .cta:hover{background:var(--signal);color:#fff}
+  .status{display:inline-block;margin-top:6px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;font:600 12px/1.3 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+  ol,ul{padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  th,td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px}
+  th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  td+td,th+th{border-left:1px solid var(--line)}
+  .price{font-size:30px;font-weight:300;letter-spacing:-.03em;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+  a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+  @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+  .langs{margin-top:14px;font-size:14px;color:var(--ink2)}
+  .langs strong{color:var(--ink)}
+  .langs a{text-decoration:none;border-bottom:1px solid var(--line)}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  h1{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="../icon-128.png" alt="" width="40" height="40"><span>InboxZip</span></div>
+  <nav class="langs" aria-label="Language"><a href="../" hreflang="en" lang="en">English</a> · <strong>Deutsch</strong> · <a href="../es/" hreflang="es" lang="es">Español</a> · <a href="../pt/" hreflang="pt-BR" lang="pt-BR">Português</a> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a></nav>
+
+  <div class="eyebrow">Chrome-Erweiterung für Gmail</div>
+  <h1>Alle Gmail-Anhänge als ZIP herunterladen.</h1>
+  <p class="lede">InboxZip sammelt die Anhänge aus deinen Gmail-Suchergebnissen in einer einzigen ZIP-Datei, sodass du nicht jede E-Mail einzeln öffnen musst. Alles läuft in deinem Browser: Deine E-Mails und Dateien gehen nie über unsere Server.</p>
+  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Zu Chrome hinzufügen</a> <span class="status">Kostenlos</span>
+
+  <h2>So funktioniert es</h2>
+  <ol>
+    <li><strong>In Gmail suchen</strong>, zum Beispiel <code>has:attachment from:buchhaltung</code>.</li>
+    <li><strong>InboxZip öffnen</strong> (neben Gmail) und die Dateitypen wählen: PDF, Bilder oder Sonstige.</li>
+    <li><strong>„Download ZIP“ drücken.</strong> InboxZip lädt die Anhänge mit deiner eigenen Gmail-Sitzung und erstellt das Archiv auf deinem Computer.</li>
+  </ol>
+
+  <h2>Kostenlos</h2>
+  <p>Alle Anhänge der aktuellen Gmail-Ergebnisseite, bis zu 3 Exporte pro Tag (fehlgeschlagene oder abgebrochene Exporte zählen nicht).</p>
+
+  <h2>Gut zu wissen</h2>
+  <ul>
+    <li>InboxZip speichert Dateien, die an E-Mails angehängt sind (in Gmail mit Büroklammer markiert). Bilder im Nachrichtentext und Kalendereinladungen sind nicht enthalten.</li>
+    <li>Eine Datei bis 25 MB; ein ZIP bis 100 MB, 1.500 Dateien und 100 Ergebnisseiten.</li>
+    <li>Dateien mit gleichem Namen werden nummeriert, nichts wird überschrieben. Schlägt ein Export fehl, meldet InboxZip das und speichert nichts, statt ein kaputtes Archiv anzulegen.</li>
+    <li>Kein Konto, keine Gmail-API, keine Anmeldung mit Google. Details in der <a href="../privacy.html">Datenschutzerklärung</a> (auf Englisch).</li>
+  </ul>
+
+  <h2>Fragen</h2>
+  <p><strong>Wie lade ich alle Anhänge einer Gmail-Suche auf einmal herunter?</strong><br>In Gmail suchen, InboxZip öffnen und „Download ZIP“ drücken. InboxZip speichert alle Anhänge der Ergebnisseite, die du gerade siehst, in einem ZIP.</p>
+  <p><strong>Kann ich nur die PDFs aus Gmail herunterladen?</strong><br>Ja. Wähle vor dem Start PDF, Bilder oder Sonstige, dann enthält das Archiv nur diese Dateien.</p>
+  <p><strong>Lädt InboxZip meine E-Mails oder Anhänge hoch?</strong><br>Nein. Die Dateien gehen von Gmail in deinen Browser, das ZIP wird auf deinem Computer erstellt.</p>
+  <p><strong>Was passiert bei zwei Anhängen mit gleichem Namen?</strong><br>Beide bleiben erhalten: Der zweite bekommt eine Nummer, nichts wird überschrieben.</p>
+  <p><a href="alle-gmail-anhaenge-herunterladen.html">Schritt für Schritt: alle Anhänge aus Gmail herunterladen &rarr;</a></p>
+
+  <h2>Kontakt</h2>
+  <p>Fragen, Lizenzhilfe oder Fehlermeldung: <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a></p>
+
+  <footer>
+    <a href="../privacy.html">Datenschutzerklärung (Englisch)</a><br>
+    InboxZip ist ein unabhängiges Produkt und steht in keiner Verbindung zu Google. Gmail ist eine Marke von Google LLC.
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InboxZip: baixar todos os anexos do Gmail em um ZIP</title>
+<meta name="description" content="Baixe todos os anexos do Gmail em um ZIP. Extensão do Chrome sem login e sem API do Gmail; os arquivos são compactados localmente.">
+<link rel="icon" href="../favicon-32.png" type="image/png">
+<link rel="canonical" href="https://inboxzip.github.io/pt/">
+<link rel="alternate" hreflang="en" href="https://inboxzip.github.io/">
+<link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/">
+<link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/">
+<link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/">
+<link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/">
+<link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/">
+<link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/">
+<meta name="theme-color" content="#f2efe7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="InboxZip: baixar todos os anexos do Gmail em um ZIP">
+<meta property="og:description" content="Baixe todos os anexos do Gmail em um ZIP. Extensão do Chrome sem login e sem API do Gmail; os arquivos são compactados localmente.">
+<meta property="og:url" content="https://inboxzip.github.io/pt/">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="InboxZip: baixar todos os anexos do Gmail em um ZIP">
+<meta name="twitter:description" content="Baixe todos os anexos do Gmail em um ZIP. Extensão do Chrome sem login e sem API do Gmail; os arquivos são compactados localmente.">
+<meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "InboxZip",
+  "applicationCategory": "BrowserApplication",
+  "operatingSystem": "Chrome",
+  "inLanguage": "pt-BR",
+  "downloadUrl": "https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak",
+  "description": "Uma extensão do Chrome que baixa todos os anexos de uma busca do Gmail em um arquivo ZIP. Roda no navegador e não envia e-mails nem arquivos.",
+  "url": "https://inboxzip.github.io/pt/",
+  "image": "https://inboxzip.github.io/og-image.png",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "pt-BR",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Como baixo todos os anexos de uma busca do Gmail de uma vez?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pesquise no Gmail, abra o InboxZip e clique em Download ZIP. O InboxZip salva em um ZIP todos os anexos da página de resultados que você está vendo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso baixar só os PDFs do Gmail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Escolha PDF, imagens ou outros arquivos antes de começar e o ZIP terá apenas esses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O InboxZip envia meus e-mails ou anexos para algum lugar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não. Os arquivos vão do Gmail para o seu navegador e o ZIP é criado no seu computador."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "E se dois anexos tiverem o mesmo nome?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Os dois são mantidos: o segundo recebe um número, então nada é sobrescrito."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--card:#fbfaf5;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#1a1c20;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:19px;letter-spacing:-.02em}
+  .brand img{border-radius:9px}
+  .eyebrow{margin-top:44px;color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:12px 0 10px;font-size:44px;line-height:1.08;letter-spacing:-.035em}
+  h2{margin:44px 0 10px;padding-top:20px;border-top:1px dashed var(--line);font-size:21px;letter-spacing:-.015em}
+  p,li{color:var(--ink2)}
+  p strong,li strong,td strong{color:var(--ink)}
+  .lede{font-size:19px;max-width:620px}
+  .cta{display:inline-block;margin:8px 10px 0 0;padding:12px 20px;border-radius:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:650;letter-spacing:-.01em}
+  .cta:hover{background:var(--signal);color:#fff}
+  .status{display:inline-block;margin-top:6px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;font:600 12px/1.3 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+  ol,ul{padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  th,td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px}
+  th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  td+td,th+th{border-left:1px solid var(--line)}
+  .price{font-size:30px;font-weight:300;letter-spacing:-.03em;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+  a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+  @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+  .langs{margin-top:14px;font-size:14px;color:var(--ink2)}
+  .langs strong{color:var(--ink)}
+  .langs a{text-decoration:none;border-bottom:1px solid var(--line)}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  h1{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><img src="../icon-128.png" alt="" width="40" height="40"><span>InboxZip</span></div>
+  <nav class="langs" aria-label="Language"><a href="../" hreflang="en" lang="en">English</a> · <a href="../de/" hreflang="de" lang="de">Deutsch</a> · <a href="../es/" hreflang="es" lang="es">Español</a> · <strong>Português</strong> · <a href="../fr/" hreflang="fr" lang="fr">Français</a> · <a href="../ja/" hreflang="ja" lang="ja">日本語</a> · <a href="../ru/" hreflang="ru" lang="ru">Русский</a></nav>
+
+  <div class="eyebrow">Extensão do Chrome para Gmail</div>
+  <h1>Baixe todos os anexos do Gmail em um ZIP.</h1>
+  <p class="lede">O InboxZip reúne os anexos dos resultados da sua busca no Gmail em um único arquivo ZIP, para você não precisar abrir cada e-mail. Tudo roda no seu navegador: seus e-mails e arquivos nunca passam pelos nossos servidores.</p>
+  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Adicionar ao Chrome</a> <span class="status">Grátis</span>
+
+  <h2>Como funciona</h2>
+  <ol>
+    <li><strong>Pesquise no Gmail</strong>, por exemplo <code>has:attachment from:financeiro</code>.</li>
+    <li><strong>Abra o InboxZip</strong> ao lado do Gmail e escolha os tipos de arquivo: PDF, imagens ou outros.</li>
+    <li><strong>Clique em Download ZIP.</strong> O InboxZip busca os anexos com a sua própria sessão do Gmail e cria o arquivo no seu computador.</li>
+  </ol>
+
+  <h2>Grátis</h2>
+  <p>Todos os anexos da página de resultados do Gmail que você está vendo, até 3 exportações por dia (as que falham ou são canceladas não contam).</p>
+
+  <h2>Bom saber</h2>
+  <ul>
+    <li>O InboxZip salva arquivos anexados aos e-mails (os que o Gmail marca com um clipe). Imagens no corpo da mensagem e convites de calendário não são incluídos.</li>
+    <li>Um arquivo de até 25 MB; um ZIP de até 100 MB, 1.500 arquivos e 100 páginas de resultados.</li>
+    <li>Arquivos com o mesmo nome recebem número, então nada é sobrescrito. Se uma exportação falhar, o InboxZip avisa e não salva nada em vez de um arquivo quebrado.</li>
+    <li>Sem conta, sem API do Gmail e sem login com o Google. Detalhes na <a href="../privacy.html">política de privacidade</a> (em inglês).</li>
+  </ul>
+
+  <h2>Perguntas</h2>
+  <p><strong>Como baixo todos os anexos de uma busca do Gmail de uma vez?</strong><br>Pesquise no Gmail, abra o InboxZip e clique em Download ZIP. O InboxZip salva em um ZIP todos os anexos da página de resultados que você está vendo.</p>
+  <p><strong>Posso baixar só os PDFs do Gmail?</strong><br>Sim. Escolha PDF, imagens ou outros arquivos antes de começar e o ZIP terá apenas esses.</p>
+  <p><strong>O InboxZip envia meus e-mails ou anexos para algum lugar?</strong><br>Não. Os arquivos vão do Gmail para o seu navegador e o ZIP é criado no seu computador.</p>
+  <p><strong>E se dois anexos tiverem o mesmo nome?</strong><br>Os dois são mantidos: o segundo recebe um número, então nada é sobrescrito.</p>
+  <p><a href="baixar-todos-os-anexos-do-gmail.html">Passo a passo: como baixar todos os anexos do Gmail &rarr;</a></p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas, ajuda com a licença ou um bug: <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a></p>
+
+  <footer>
+    <a href="../privacy.html">Política de privacidade (em inglês)</a><br>
+    O InboxZip é um produto independente e não é afiliado ao Google. Gmail é uma marca da Google LLC.
+  </footer>
+</main>
+</body>
+</html>

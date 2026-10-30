@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Как скачать все вложения из Gmail сразу (одним ZIP)</title>
+<meta name="description" content="Скачайте все вложения Gmail из многих писем сразу: найдите письма, отфильтруйте по типу файла и сохраните всё одним ZIP. Без входа, без Gmail API.">
+<link rel="icon" href="../favicon-32.png" type="image/png">
+<link rel="canonical" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html">
+<link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html">
+<link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html">
+<link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html">
+<link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html">
+<link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html">
+<link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html">
+<link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html">
+<link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html">
+<meta name="theme-color" content="#f2efe7">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="InboxZip">
+<meta property="og:title" content="Как скачать все вложения из Gmail сразу (одним ZIP)">
+<meta property="og:description" content="Скачайте все вложения Gmail из многих писем сразу: найдите письма, отфильтруйте по типу файла и сохраните всё одним ZIP. Без входа, без Gmail API.">
+<meta property="og:url" content="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://inboxzip.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Как скачать все вложения из Gmail сразу (одним ZIP)">
+<meta name="twitter:description" content="Скачайте все вложения Gmail из многих писем сразу: найдите письма, отфильтруйте по типу файла и сохраните всё одним ZIP. Без входа, без Gmail API.">
+<meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Как скачать все вложения из Gmail сразу",
+  "inLanguage": "ru",
+  "dateModified": "2026-10-30",
+  "mainEntityOfPage": "https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html",
+  "author": {
+    "@type": "Organization",
+    "name": "InboxZip"
+  },
+  "image": "https://inboxzip.github.io/og-image.png"
+}
+</script>
+<style>
+  :root{color-scheme:light dark;--paper:#f2efe7;--card:#fbfaf5;--ink:#15161a;--ink2:#4d4f55;--line:rgba(21,22,26,.18);--signal:#b0300f}
+  @media (prefers-color-scheme:dark){:root{--paper:#121316;--card:#1a1c20;--ink:#f2efe7;--ink2:#b9b6ad;--line:rgba(242,239,231,.2);--signal:#ff8d6c}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:40px 20px 72px}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:650;font-size:19px;letter-spacing:-.02em}
+  .brand img{border-radius:9px}
+  .eyebrow{margin-top:44px;color:var(--signal);font:600 12px/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.14em;text-transform:uppercase}
+  h1{margin:12px 0 10px;font-size:44px;line-height:1.08;letter-spacing:-.035em}
+  h2{margin:44px 0 10px;padding-top:20px;border-top:1px dashed var(--line);font-size:21px;letter-spacing:-.015em}
+  p,li{color:var(--ink2)}
+  p strong,li strong,td strong{color:var(--ink)}
+  .lede{font-size:19px;max-width:620px}
+  .cta{display:inline-block;margin:8px 10px 0 0;padding:12px 20px;border-radius:10px;background:var(--ink);color:var(--paper);text-decoration:none;font-weight:650;letter-spacing:-.01em}
+  .cta:hover{background:var(--signal);color:#fff}
+  .status{display:inline-block;margin-top:6px;padding:6px 12px;border:1px solid var(--line);border-radius:8px;font:600 12px/1.3 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+  ol,ul{padding-left:22px}
+  li{margin:6px 0}
+  table{width:100%;border-collapse:collapse;margin-top:12px;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  th,td{padding:14px 16px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);font-size:15px}
+  th{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+  tr:last-child td{border-bottom:0}
+  td+td,th+th{border-left:1px solid var(--line)}
+  .price{font-size:30px;font-weight:300;letter-spacing:-.03em;color:var(--ink)}
+  .todo{padding:12px 14px;border-left:3px solid var(--signal);background:rgba(176,48,15,.08);color:var(--ink)}
+  a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
+  footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
+  @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+  .langs{margin-top:14px;font-size:14px;color:var(--ink2)}
+  .langs strong{color:var(--ink)}
+  .langs a{text-decoration:none;border-bottom:1px solid var(--line)}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  h1{overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><a href="./" style="text-decoration:none"><img src="../icon-128.png" alt="" width="40" height="40"> <span>InboxZip</span></a></div>
+  <nav class="langs" aria-label="Language"><a href="../download-all-gmail-attachments.html" hreflang="en" lang="en">English</a> · <a href="../de/alle-gmail-anhaenge-herunterladen.html" hreflang="de" lang="de">Deutsch</a> · <a href="../es/descargar-todos-los-adjuntos-de-gmail.html" hreflang="es" lang="es">Español</a> · <a href="../pt/baixar-todos-os-anexos-do-gmail.html" hreflang="pt-BR" lang="pt-BR">Português</a> · <a href="../fr/telecharger-toutes-les-pieces-jointes-gmail.html" hreflang="fr" lang="fr">Français</a> · <a href="../ja/gmail-tenpu-file-matomete-download.html" hreflang="ja" lang="ja">日本語</a> · <strong>Русский</strong></nav>
+
+  <h1>Как скачать все вложения из Gmail сразу</h1>
+  <p class="lede">В Gmail кнопка скачивания работает только для одного письма. Если нужны вложения из десятков писем (счета, чеки, договоры, отчёты), открывать каждое долго. Вот как сохранить все вложения из результатов поиска Gmail за один раз.</p>
+  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Добавить InboxZip в Chrome</a> <span class="status">Бесплатно</span>
+
+  <h2>Встроенные способы и их ограничения</h2>
+  <p>Внутри одного письма с несколькими вложениями Gmail показывает кнопку «Скачать все вложения». Она действует только для этого письма. Google Takeout выгружает весь почтовый ящик, но вы получаете всё подряд, а не нужные файлы, и это может занять часы или дни.</p>
+
+  <h2>Скачать все вложения из многих писем с InboxZip</h2>
+  <ol><li><strong>Установите</strong> <a href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">InboxZip из Chrome Web Store</a>.</li><li><strong>Найдите письма в Gmail</strong>, например <code>has:attachment from:бухгалтерия</code>.</li><li><strong>Откройте InboxZip</strong> рядом с Gmail и выберите типы файлов: PDF, изображения или другие.</li><li><strong>Нажмите Download ZIP.</strong> InboxZip получает вложения через вашу собственную сессию Gmail и собирает один ZIP на вашем компьютере.</li></ol><p>InboxZip выгружает открытую страницу результатов, до 3 экспортов в день.</p>
+
+  <h2>Полезные фильтры поиска Gmail</h2>
+  <ul><li><code>has:attachment</code> только письма с вложениями</li><li><code>filename:pdf</code> только PDF (или <code>filename:xlsx</code>, <code>filename:jpg</code>)</li><li><code>from:name@example.com</code> один отправитель</li><li><code>after:2026/01/01 before:2026/02/01</code> диапазон дат</li><li><code>larger:5M</code> только крупные файлы</li></ul><p>Фильтры можно сочетать: <code>has:attachment filename:pdf from:бухгалтерия after:2026/01/01</code> найдёт все PDF от одного отправителя за этот год.</p>
+
+  <h2>Скачать из Gmail только PDF</h2>
+  <p>Ищите с <code>filename:pdf</code> или просто выберите PDF в InboxZip перед началом. В архиве будут только PDF, а одинаковые имена получат номера, чтобы ничего не перезаписалось.</p>
+
+  <h2>Это безопасно для приватности?</h2>
+  <p>Да. Файлы идут из Gmail в ваш браузер, а ZIP собирается локально. Без входа, без Gmail API и без загрузки ваших писем или вложений к нам.</p>
+
+  <p><a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Добавить InboxZip в Chrome</a></p>
+  <p><a href="./">Вернуться на главную InboxZip</a></p>
+
+  <footer>
+    <a href="../privacy.html">Политика конфиденциальности (на английском)</a><br>
+    InboxZip — независимый продукт и не связан с Google. Gmail — товарный знак Google LLC.
+  </footer>
+</main>
+</body>
+</html>

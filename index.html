@@ -3,23 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>InboxZip: save Gmail attachments in one ZIP</title>
-<meta name="description" content="InboxZip is a Chrome extension that saves the attachments from a Gmail search into one ZIP file. Free for the current page, Pro for all pages: $9.99 once.">
+<title>InboxZip: download all Gmail attachments as one ZIP</title>
+<meta name="description" content="Download all Gmail attachments as one ZIP. A Chrome extension with no sign-in and no Gmail API; files are zipped locally on your computer.">
 <link rel="icon" href="favicon-32.png" type="image/png">
 <link rel="canonical" href="https://inboxzip.github.io/">
+<link rel="alternate" hreflang="en" href="https://inboxzip.github.io/">
+<link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/">
+<link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/">
+<link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/">
+<link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/">
+<link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/">
+<link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/">
+<link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/">
 <meta name="theme-color" content="#f2efe7">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="InboxZip">
-<meta property="og:title" content="InboxZip: save Gmail attachments in one ZIP">
-<meta property="og:description" content="A Chrome extension that saves the attachments from a Gmail search into one ZIP file. Free for the current page, Pro for all pages: $9.99 once.">
+<meta property="og:title" content="InboxZip: download all Gmail attachments as one ZIP">
+<meta property="og:description" content="Download all Gmail attachments as one ZIP. A Chrome extension with no sign-in and no Gmail API; files are zipped locally on your computer.">
 <meta property="og:url" content="https://inboxzip.github.io/">
+<meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://inboxzip.github.io/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="InboxZip: Save Gmail attachments in one ZIP">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="InboxZip: save Gmail attachments in one ZIP">
-<meta name="twitter:description" content="Free for the current page, Pro for all pages: $9.99 once, no subscription.">
+<meta name="twitter:title" content="InboxZip: download all Gmail attachments as one ZIP">
+<meta name="twitter:description" content="Download all Gmail attachments as one ZIP. A Chrome extension with no sign-in and no Gmail API; files are zipped locally on your computer.">
 <meta name="twitter:image" content="https://inboxzip.github.io/og-image.png">
 <script type="application/ld+json">
 {
@@ -28,13 +36,56 @@
   "name": "InboxZip",
   "applicationCategory": "BrowserApplication",
   "operatingSystem": "Chrome",
+  "inLanguage": "en",
   "downloadUrl": "https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak",
-  "description": "A Chrome extension that saves the attachments from a Gmail search into one ZIP file. It runs in the browser and does not upload emails or files.",
+  "description": "A Chrome extension that downloads all Gmail attachments from a search as one ZIP file. It runs in the browser and does not upload emails or files.",
   "url": "https://inboxzip.github.io/",
   "image": "https://inboxzip.github.io/og-image.png",
-  "offers": [
-    {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "USD"},
-    {"@type": "Offer", "name": "Pro, lifetime license", "price": "9.99", "priceCurrency": "USD"}
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "inLanguage": "en",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I download all attachments from a Gmail search at once?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Search in Gmail, open InboxZip and press Download ZIP. InboxZip saves every attachment on the results page you are looking at into one ZIP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I download only the PDFs from Gmail?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pick PDFs, images or other files before you start, and the archive only holds those."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does InboxZip upload my emails or attachments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The files go from Gmail to your browser and the ZIP is built on your computer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if two attachments have the same name?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both are kept: the second one gets a number, so nothing is overwritten."
+      }
+    }
   ]
 }
 </script>
@@ -67,16 +118,22 @@
   a{color:var(--ink);text-decoration-color:var(--line);text-underline-offset:4px}
   footer{margin-top:48px;padding-top:20px;border-top:1px dashed var(--line);font-size:14px;color:var(--ink2)}
   @media (max-width:560px){h1{font-size:34px}th,td{padding:12px}}
+  .langs{margin-top:14px;font-size:14px;color:var(--ink2)}
+  .langs strong{color:var(--ink)}
+  .langs a{text-decoration:none;border-bottom:1px solid var(--line)}
+  code{font:.9em ui-monospace,Menlo,Consolas,monospace;color:var(--ink)}
+  h1{overflow-wrap:anywhere}
 </style>
 </head>
 <body>
 <main>
   <div class="brand"><img src="icon-128.png" alt="" width="40" height="40"><span>InboxZip</span></div>
+  <nav class="langs" aria-label="Language"><strong>English</strong> · <a href="de/" hreflang="de" lang="de">Deutsch</a> · <a href="es/" hreflang="es" lang="es">Español</a> · <a href="pt/" hreflang="pt-BR" lang="pt-BR">Português</a> · <a href="fr/" hreflang="fr" lang="fr">Français</a> · <a href="ja/" hreflang="ja" lang="ja">日本語</a> · <a href="ru/" hreflang="ru" lang="ru">Русский</a></nav>
 
   <div class="eyebrow">Chrome extension for Gmail</div>
-  <h1>Save Gmail attachments in one ZIP.</h1>
+  <h1>Download all Gmail attachments as one ZIP.</h1>
   <p class="lede">InboxZip collects the attachments from your Gmail search results into a single flat ZIP file, so you don&rsquo;t have to open every email. It runs inside your browser: your emails and files never pass through our servers.</p>
-  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Add to Chrome</a> <span class="status">Free · Pro $9.99 once</span>
+  <a class="cta" href="https://chromewebstore.google.com/detail/pphgmklobaldepljdgpdbmfeolnidfak">Add to Chrome</a> <span class="status">Free</span>
 
   <h2>How it works</h2>
   <ol>
@@ -85,15 +142,8 @@
     <li><strong>Press Download ZIP.</strong> InboxZip fetches the attachments with your own Gmail session and builds the archive on your computer.</li>
   </ol>
 
-  <h2>Free and Pro</h2>
-  <table>
-    <tr><th></th><th>Free</th><th>Pro</th></tr>
-    <tr><td><strong>Price</strong></td><td class="price">$0</td><td><span class="price">$9.99</span><br>one-time payment, lifetime, no subscription</td></tr>
-    <tr><td><strong>Which emails</strong></td><td>The Gmail results page you are looking at</td><td>Every page of a Gmail search, one after another</td></tr>
-    <tr><td><strong>Exports</strong></td><td>3 per day (failed or cancelled ones don&rsquo;t count)</td><td>No daily limit</td></tr>
-    <tr><td><strong>Devices</strong></td><td>&ndash;</td><td>License key works on up to 3 installs; you can remove one yourself in the customer portal</td></tr>
-  </table>
-  <p>Pro is sold through Polar, our payment provider and merchant of record. You receive a license key right after payment and paste it into InboxZip. Applicable taxes are calculated at checkout.</p>
+  <h2>Free</h2>
+  <p>Every attachment on the Gmail results page you are looking at, up to 3 exports per day (failed or cancelled exports don&rsquo;t count).</p>
 
   <h2>Good to know</h2>
   <ul>
@@ -104,10 +154,11 @@
   </ul>
 
   <h2>Questions</h2>
-  <p><strong>How do I download all attachments from a Gmail search at once?</strong><br>Search in Gmail, open InboxZip and press Download ZIP. The free version saves every attachment on the results page you are looking at. Pro keeps going through each page of the same search and puts everything into one ZIP.</p>
-  <p><strong>Does InboxZip upload my emails or attachments?</strong><br>No. The files go from Gmail to your browser and the ZIP is built on your computer. The only thing sent anywhere is your Pro license key, to Polar, to check that it is valid.</p>
-  <p><strong>Can I choose which files go into the ZIP?</strong><br>Yes. Pick PDFs, images or other files before you start, and the archive only holds those.</p>
+  <p><strong>How do I download all attachments from a Gmail search at once?</strong><br>Search in Gmail, open InboxZip and press Download ZIP. InboxZip saves every attachment on the results page you are looking at into one ZIP.</p>
+  <p><strong>Can I download only the PDFs from Gmail?</strong><br>Yes. Pick PDFs, images or other files before you start, and the archive only holds those.</p>
+  <p><strong>Does InboxZip upload my emails or attachments?</strong><br>No. The files go from Gmail to your browser and the ZIP is built on your computer.</p>
   <p><strong>What if two attachments have the same name?</strong><br>Both are kept: the second one gets a number, so nothing is overwritten.</p>
+  <p><a href="download-all-gmail-attachments.html">Step by step: how to download all attachments from Gmail &rarr;</a></p>
 
   <h2>Contact</h2>
   <p>Questions, license help or a bug report: <a href="mailto:idiosgamecorporation@gmail.com">idiosgamecorporation@gmail.com</a></p>

@@ -1,11 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://inboxzip.github.io/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/download-all-gmail-attachments.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/de/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/es/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/pt/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/fr/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/ja/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/ru/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/"/>
+  </url>
+  <url>
+    <loc>https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://inboxzip.github.io/de/alle-gmail-anhaenge-herunterladen.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://inboxzip.github.io/es/descargar-todos-los-adjuntos-de-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://inboxzip.github.io/pt/baixar-todos-os-anexos-do-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://inboxzip.github.io/fr/telecharger-toutes-les-pieces-jointes-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://inboxzip.github.io/ja/gmail-tenpu-file-matomete-download.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://inboxzip.github.io/ru/skachat-vse-vlozheniya-gmail.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://inboxzip.github.io/download-all-gmail-attachments.html"/>
   </url>
   <url>
     <loc>https://inboxzip.github.io/privacy.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
 </urlset>
